@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>homeSheet</name>
+    <events>
+        <event-block sid="234739435288181">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="905649618169837" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="363394005874014" type="OrangeBackground" />
+                <action id="-9" name="Set value" sid="717411900493950" type="System">
+                    <param id="0" name="Variable">color</param>
+                    <param id="1" name="Value">floor(random(0,5))</param>
+                </action>
+                <action id="5" name="Set frame" sid="349050792325343" type="OrangeBackground">
+                    <param id="0" name="Frame number">color</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="944741357123642">
+            <conditions>
+                <condition id="3" name="On touched object" sid="558835224864762" type="Touch">
+                    <param id="0" name="Object">btnPlay</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="893076732521268" type="System">
+                    <param id="0" name="Layout">&quot;gameLayout&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="898374242466746">
+            <conditions>
+                <condition id="3" name="On touched object" sid="296021619556889" type="Touch">
+                    <param id="0" name="Object">btnMoreGames</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Open URL in new window" sid="760585468457425" type="Browser">
+                    <param id="0" name="URL">&quot;http://www.google.com&quot;</param>
+                    <param id="1" name="Tag">&quot;NewWindow&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
