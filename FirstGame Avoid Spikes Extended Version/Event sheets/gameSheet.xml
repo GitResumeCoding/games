@@ -27,6 +27,10 @@
                 <action id="-16" name="Set opacity" sid="293914139204603" type="btnHome">
                     <param id="0" name="Opacity">0</param>
                 </action>
+                <action id="-9" name="Set value" sid="827911364254152" type="System">
+                    <param id="0" name="Variable">scoreVariable</param>
+                    <param id="1" name="Value">0</param>
+                </action>
                 <action id="-9" name="Set value" sid="382763403129807" type="System">
                     <param id="0" name="Variable">isAlive</param>
                     <param id="1" name="Value">0</param>
