@@ -20082,8 +20082,8 @@ cr.behaviors.destroy = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser,
 	cr.plugins_.Particles,
-	cr.plugins_.Sprite,
 	cr.plugins_.Touch,
+	cr.plugins_.Sprite,
 	cr.plugins_.Text,
 	cr.behaviors.Sin,
 	cr.behaviors.Bullet,
