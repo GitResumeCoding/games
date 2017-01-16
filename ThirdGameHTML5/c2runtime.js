@@ -20113,6 +20113,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.system_object.prototype.acts.AddVar,
 	cr.plugins_.Sprite.prototype.cnds.OnDestroyed,
+	cr.system_object.prototype.acts.Wait,
 	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 	cr.system_object.prototype.acts.GoToLayout,
 	cr.system_object.prototype.acts.RestartLayout,
