@@ -1,0 +1,8 @@
+projectile 15x15
+player 75x75
+green 40x40
+orange 30x30
+blue 50x50
+background 720x1280
+
+---------
