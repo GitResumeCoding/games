@@ -19870,8 +19870,8 @@ cr.behaviors.destroy = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser,
 	cr.plugins_.Mouse,
-	cr.plugins_.Text,
 	cr.plugins_.Sprite,
+	cr.plugins_.Text,
 	cr.plugins_.Touch,
 	cr.behaviors.bound,
 	cr.behaviors.Bullet,
@@ -19892,6 +19892,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.system_object.prototype.acts.AddVar,
 	cr.plugins_.Text.prototype.acts.SetText,
+	cr.plugins_.Sprite.prototype.acts.RotateClockwise,
 	cr.system_object.prototype.acts.CreateObject,
 	cr.system_object.prototype.exps.random,
 	cr.system_object.prototype.acts.SubVar,
