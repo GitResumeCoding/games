@@ -14,6 +14,8 @@ git push orgin master
 username git resume  /\ coding
 password */\6/\p
 
+git push -u orgin master
+
 
 -----
 this will tell me if the github url link is connected to the folder if it's not then pull it from the wbepage and add it. 
@@ -25,3 +27,5 @@ to add the url link
 git remote add orgin [URL LINK from github webpage]
 i.e. for android
 git remote add origin https://github.com/GitResumeCoding/android.git
+
+https://github.com/mendyz/games.git
