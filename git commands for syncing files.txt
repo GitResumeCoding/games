@@ -29,3 +29,11 @@ i.e. for android
 git remote add origin https://github.com/GitResumeCoding/android.git
 
 https://github.com/mendyz/games.git
+
+--
+after changing the git name
+
+git remote show origin
+git remote -v
+to change it:
+git remote set-url orgin https://github.com/mendyz/games.git
